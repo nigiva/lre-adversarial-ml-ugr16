@@ -43,7 +43,15 @@ url="$base_link_list/$month/$week/$month"_"$week"_"csv.tar.gz"
 wget -O /tmp/mlsecu/mlsecu_data.tar.gz $url
 pv /tmp/mlsecu/mlsecu_data.tar.gz | tar xz -C /tmp/mlsecu
 
-data_path="/tmp/mlsecu/uniq/$month.$week.csv.uniqblacklistremoved"
+# Cas particulier
+# Après décompression, le august.week1 ne setrouve pas dans un dossier "uniq"
+if [ $month = "august" ] && [ $week = "week1" ]
+then
+	data_path="/tmp/mlsecu/$month.$week.csv"
+else
+	data_path="/tmp/mlsecu/uniq/$month.$week.csv.uniqblacklistremoved"
+fi
+
 export_path="/media/silver/corentin/mlsecu/count/test-$month.$week.json"
 
 /media/gold/corentin/mlsecu/venv/bin/python /media/gold/corentin/mlsecu/count.py --data $data_path --export $export_path
