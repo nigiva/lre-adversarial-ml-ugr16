@@ -42,7 +42,7 @@ month=${month_list[$id]}
 url="$base_link_list/$month/$week/$month"_"$week"_"csv.tar.gz"
 
 wget -O /tmp/mlsecu/mlsecu_data.tar.gz $url
-pv /tmp/mlsecu/mlsecu_data.tar.gz | tar xz -C ~/mlsecu
+pv /tmp/mlsecu/mlsecu_data.tar.gz | tar xz -C /tmp/mlsecu
 
 data_path="/tmp/mlsecu/uniq/$month.$week.csv.uniqblacklistremoved"
 export_path="/media/silver/corentin/mlsecu/count/test-$month.$week.json"
