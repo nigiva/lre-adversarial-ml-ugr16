@@ -9,7 +9,6 @@
 #$ -pe mpi 8
 #$ -o /media/silver/corentin/mlsecu/std
 #$ -t 1-6
-SGE_TASK_ID=1
 echo "Task id : $SGE_TASK_ID"
 declare -i id=$SGE_TASK_ID-1
 echo "Id : $id"
