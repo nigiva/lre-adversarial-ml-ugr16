@@ -7,8 +7,6 @@ from tqdm import tqdm
 
 # CONSTANTES
 NBR_COLUMN = 13
-NBR_ATTACK = 1_000_000
-NBR_BACKGROUND = NBR_ATTACK*8
 
 # FILE ARGS
 parser = argparse.ArgumentParser()
