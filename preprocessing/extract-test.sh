@@ -53,10 +53,11 @@ else
 fi
 
 dataset_name="test-$month.$week"
-export_path="/media/silver/corentin/mlsecu/count/test-$month.$week.json"
+tmp_export_path="~/test-$month.$week.json"
+export_dir_path="/media/silver/corentin/mlsecu/extract/"
 index_path="/media/gold/corentin/mlsecu/dataset_label_index.json"
 
+/media/gold/corentin/mlsecu/venv/bin/python /media/gold/corentin/mlsecu/extract.py --data $data_path --index $index_path --dataset_name $dataset_name --export $tmp_export_path
 
-/media/gold/corentin/mlsecu/venv/bin/python /media/gold/corentin/mlsecu/extract.py --data $data_path --index $index_path --dataset_name $dataset_name --export $export_path
-
+mv $tmp_export_path $export_dir_path
 rm -rf /tmp/mlsecu
