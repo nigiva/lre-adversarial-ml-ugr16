@@ -37,6 +37,8 @@ with open(index_file_path, "r") as index_file:
     index_dict = json.loads(index_file.read())
 
 label_index_dict = index_dict[dataset_name]
+# Optimisation : temps de recherche dans un ensemble
+label_index_dict = {key:set(value) for key, value in label_index_dict.items()}
 
 # Counter
 label_counter = Counter([])
