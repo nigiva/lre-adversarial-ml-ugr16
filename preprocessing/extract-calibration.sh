@@ -67,7 +67,7 @@ pv /tmp/mlsecu/mlsecu_data.tar.gz | tar xz -C /tmp/mlsecu
 
 dataset_name="calibration-$month.$week"
 data_path="/tmp/mlsecu/uniq/$month.$week.csv.uniqblacklistremoved"
-tmp_export_path="~/calibration-$month.$week.json"
+tmp_export_path="/tmp/mlsecu/calibration-$month.$week.json"
 export_dir_path="/media/silver/corentin/mlsecu/extract/"
 index_path="/media/gold/corentin/mlsecu/dataset_label_index.json"
 
