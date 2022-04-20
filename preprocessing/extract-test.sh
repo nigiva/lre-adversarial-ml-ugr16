@@ -53,7 +53,7 @@ else
 fi
 
 dataset_name="test-$month.$week"
-tmp_export_path="/tmp/mlsecu/test-$month.$week.json"
+tmp_export_path="/tmp/mlsecu/test-$month.$week.csv"
 export_dir_path="/media/silver/corentin/mlsecu/extract/"
 index_path="/media/gold/corentin/mlsecu/dataset_label_index.json"
 
