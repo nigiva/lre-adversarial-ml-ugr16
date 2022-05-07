@@ -2,6 +2,7 @@
 data/
 *.pck
 model/export
+out/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
