@@ -1,0 +1,8 @@
+model_name,attack_name,accuracy_score,f1_score,precision_score,recall_score,attack_duration,eps
+RandomForestClassifier,HopSkipJump,0.100,0.100,0.100,0.100,519.928,0.000
+DecisionTreeClassifier,DecisionTreeAttack,0.125,0.125,0.125,0.125,0.112,0.014
+DecisionTreeClassifier,HopSkipJump,0.200,0.200,0.200,0.200,13.679,0.000
+XGBClassifier,HopSkipJump,0.312,0.312,0.312,0.312,176.009,0.000
+RandomForestClassifier,ZooAttack,0.338,0.338,0.338,0.338,20.666,0.000
+XGBClassifier,ZooAttack,0.438,0.438,0.438,0.438,11.975,0.000
+DecisionTreeClassifier,ZooAttack,0.850,0.850,0.850,0.850,0.761,0.000

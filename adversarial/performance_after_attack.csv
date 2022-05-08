@@ -1,0 +1,8 @@
+,accuracy_score,f1_score,precision_score,recall_score,model_name,attack_name,attack_duration
+0,0.0,0.0,0.0,0.0,DecisionTreeClassifier,DecisionTreeAttack,1.2136867046356201
+1,0.0,0.0,0.0,0.0,DecisionTreeClassifier,HopSkipJump,14.07776141166687
+2,0.7875,0.7875,0.7875,0.7875,DecisionTreeClassifier,ZooAttack,1.8179352283477783
+3,0.0,0.0,0.0,0.0,RandomForestClassifier,HopSkipJump,475.87656021118164
+4,0.3,0.3,0.3,0.3,RandomForestClassifier,ZooAttack,24.322603702545166
+5,0.0,0.0,0.0,0.0,XGBClassifier,HopSkipJump,220.07347559928894
+6,0.45,0.45,0.45,0.45,XGBClassifier,ZooAttack,13.082252025604248

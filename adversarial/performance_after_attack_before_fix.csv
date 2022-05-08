@@ -1,0 +1,8 @@
+,accuracy_score,f1_score,precision_score,recall_score,model_name,attack_name,attack_duration,eps
+0,0.0,0.0,0.0,0.0,DecisionTreeClassifier,DecisionTreeAttack,0.11215710639953613,0.013787956076896224
+1,0.0,0.0,0.0,0.0,DecisionTreeClassifier,HopSkipJump,13.67924165725708,6.456405661960847e-07
+2,0.875,0.875,0.875,0.875,DecisionTreeClassifier,ZooAttack,0.7607874870300293,3.800097265169091e-10
+3,0.0,0.0,0.0,0.0,RandomForestClassifier,HopSkipJump,519.9275155067444,1.6908677772572335e-07
+4,0.3375,0.3375,0.3375,0.3375,RandomForestClassifier,ZooAttack,20.66599440574646,8.839197211949476e-08
+5,0.0,0.0,0.0,0.0,XGBClassifier,HopSkipJump,176.00863337516785,1.1816855411880063e-07
+6,0.4375,0.4375,0.4375,0.4375,XGBClassifier,ZooAttack,11.975241422653198,1.3676146066035113e-08
