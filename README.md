@@ -1,6 +1,6 @@
 # MLSECU
 
-Projet de recherche visant à entraîner un réseau à détecter les attaques dans les flux de données, puis à tenter de le tromper en utilisant l'adversarial machine learning.
+Projet de recherche visant à entraîner un réseau à détecter les attaques dans les flux de données de UGR-16, puis à tenter de le tromper en utilisant l'adversarial machine learning.
 
 ## Objectif choisi
 
