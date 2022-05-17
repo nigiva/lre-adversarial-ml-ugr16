@@ -54,7 +54,7 @@ Cette tâche a été découpée en 3 parties :
 Enfin, dans une dernière phase de pré-traitement, nous sommes censés normaliser les données. La normalisation des données est un point essentiel dans l'analyse et l'utilisation de la donnée pour entrainer des modèles de Machine Learning. Dans la partie (D.) nous détaillerons le pré-traitement effectué sur la dataset extraite : cela comprend aussi bien l'encodage de certaines variables que la normalisation à 1 et la standardisation (pour avoir des variables centrées et réduites). Notons toutefois que certains modèles comme les arbres de décision n'ont pas besoin de cette étape de Normalisation/Standardisation. Par abus de langage, on parlera souvent dans cette analyse de la "Normalisation" comme étant l'étape encodant, normalisant et standardisant les données avant leur utilisation concrète.
 
 Pour nous aider dans ce problème de Big Data, nous avons utilisé un cluster de 9 machines appartenant à l'équipe ESLR (Epita Speech & Language Recognition) du LSE de l'EPITA dont font partie deux membres du groupe (Corentin DUCHÊNE & Henri JAMET).
-![](https://i.imgur.com/aesszES.png)
+![](https://i.imgur.com/OvlTaTz.png)
 Nous avons utilisé Sun Grid Engine comme job scheduler. Il est beaucoup utilisé en interne pour lancer plusieurs entrainements sur différent GPU. Le temps de calcul cumulé pour les différentes tâches sur le cluster a été de 12 heures.
 
 ## A. Compter le nombre d'exemples par label
