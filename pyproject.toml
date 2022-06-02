@@ -18,6 +18,7 @@ jupyter = "^1.0.0"
 plotly = "^5.7.0"
 xgboost = "^1.6.0"
 ray = {extras = ["default"], version = "^1.12.1"}
+protobuf = "3.19.4"
 
 [tool.poetry.dev-dependencies]
 
